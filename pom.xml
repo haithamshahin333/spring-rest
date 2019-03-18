@@ -8,19 +8,6 @@
     <artifactId>shift-rest</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-<<<<<<< HEAD
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-		<maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
-		<spring-boot.bom.version>2.1.2.Final-redhat-00003</spring-boot.bom.version>
-		<springboot.version>2.1.2.RELEASE</springboot.version>
-		<springfox-version>2.8.0</springfox-version>
-		<swagger-core-version>1.5.10</swagger-core-version>
-	</properties>
-=======
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -32,7 +19,6 @@
         <springfox-version>2.8.0</springfox-version>
         <swagger-core-version>1.5.10</swagger-core-version>
     </properties>
->>>>>>> 4354b1929fcdaafb46a35032add625657a52f708
 
     <dependencyManagement>
         <dependencies>
@@ -46,49 +32,6 @@
         </dependencies>
     </dependencyManagement>
 
-<<<<<<< HEAD
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-			<exclusions>
-        		<exclusion>
-		            <groupId>org.springframework.boot</groupId>
-		            <artifactId>spring-boot-starter-tomcat</artifactId>
-        		</exclusion>
-    		</exclusions>
-		</dependency>
-		<dependency>
-    		<groupId>org.springframework.boot</groupId>
-    		<artifactId>spring-boot-starter-undertow</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<!--SpringFox dependencies -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger2</artifactId>
-			<version>${springfox-version}</version>
-		</dependency>
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger-ui</artifactId>
-			<version>${springfox-version}</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-core -->
-		<dependency>
-			<groupId>io.swagger</groupId>
-			<artifactId>swagger-core</artifactId>
-			<version>${swagger-core-version}</version>
-		</dependency>
-=======
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -136,7 +79,6 @@
             <artifactId>swagger-core</artifactId>
             <version>${swagger-core-version}</version>
         </dependency>
->>>>>>> 4354b1929fcdaafb46a35032add625657a52f708
 
     </dependencies>
 

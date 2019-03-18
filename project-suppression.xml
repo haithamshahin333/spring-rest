@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.2.xsd">
-<<<<<<< HEAD
-	<suppress>
-	   <notes><![CDATA[
-	   file name: spring-boot-starter-2.1.2.RELEASE.jar
-	   ]]></notes>
-	   <cve>CVE-2011-2730</cve>
-	</suppress>
-=======
     <suppress>
         <notes><![CDATA[
 	   Spring Boot versions of 2.x are being confused with Spring Framework 2.x. Spring Boot 2.x uses Spring Framework 5.x.
@@ -20,5 +12,4 @@
 	   ]]></notes>
         <cpe>cpe:/a:springsource:spring_framework:1.2.0</cpe>
     </suppress>
->>>>>>> 4354b1929fcdaafb46a35032add625657a52f708
 </suppressions>
