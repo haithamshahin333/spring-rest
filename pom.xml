@@ -129,7 +129,7 @@
                 <artifactId>dependency-check-maven</artifactId>
                 <version>5.0.0-M1</version>
                 <configuration>
-                    <failBuildOnCVSS>4</failBuildOnCVSS>
+                    <failBuildOnCVSS>11</failBuildOnCVSS>
                     <cveValidForHours>0</cveValidForHours>
                     <suppressionFile>project-suppression.xml</suppressionFile>
                     <cveUrlModified>https://nexus-labs-hs-ci-cd.apps.s11.core.rht-labs.com/repository/nist-hosted/db/nvdcve-1.0-modified.json.gz</cveUrlModified>
